@@ -10,7 +10,7 @@ export default function App() {
         <label>Wybierz towarzystwo:</label>
         <label>
           <span>
-            <select className="CompanyDropList">
+            <select value="company" className="CompanyDropList">
               <option value="pzu">PZU</option>
               <option value="warta_tuir">WARTA TUiR</option>
               <option value="warta_tunz">WARTA TUnŻ</option>

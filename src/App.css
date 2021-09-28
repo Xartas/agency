@@ -36,4 +36,5 @@ fieldset > legend {
 .CompanyDropList {
   margin: 10px;
   font-size: 20px;
+  width: 200px;
 }
