@@ -1,20 +1,9 @@
 import './App.css';
 
 export default function App() {
-  const [company]
 
-
-  const productFiltering = () =>{
-
-  }
- 
- 
- 
   return (
   <>
-    
-    
-    
     <div className="CompanyMenu">
       <fieldset>
         <legend>WYBÓR FIRMY</legend>
