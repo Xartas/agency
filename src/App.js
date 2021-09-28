@@ -1,25 +1,53 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
+  const [company]
+
+
+  const productFiltering = () =>{
+
+  }
+ 
+ 
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <>
+    
+    
+    
+    <div className="CompanyMenu">
+      <fieldset>
+        <legend>WYBÓR FIRMY</legend>
+        <label>Wybierz towarzystwo:</label>
+        <label>
+          <span>
+            <select className="CompanyDropList">
+              <option value="pzu">PZU</option>
+              <option value="warta_tuir">WARTA TUiR</option>
+              <option value="warta_tunz">WARTA TUnŻ</option>
+              <option value="interrisk">INTERRISK</option>
+            </select>
+          </span>
+        </label>
+      </fieldset>
     </div>
+
+    <div className="ProductMenu">
+      <fieldset>
+        <legend>WYBÓR PRODUKTU</legend>
+        <label>Wybierz produkt:</label>
+        <label>
+          <span>
+            <select className="CompanyDropList">
+              <option value="pzu">Komunikacja</option>
+              <option value="warta_tuir">Mieszkania</option>
+              <option value="warta_tunz">Inne</option>
+            </select>
+          </span>
+        </label>
+      </fieldset>
+    </div>
+
+  </>
   );
 }
-
-export default App;
