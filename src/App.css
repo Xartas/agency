@@ -24,6 +24,8 @@
 
 fieldset {
   border-radius: 5px;
+  display: block;
+  float: left;
 }
 
 fieldset > legend {
@@ -31,10 +33,6 @@ fieldset > legend {
   color: #9c1616;
 }
 
-.Pickers {
-  width: 100%;
-  display: block;
-}
 .CompanyMenu {
   float: left;
 }
@@ -44,6 +42,7 @@ fieldset > legend {
 }
 
 .RiskMenu {
+  clear: left;
   display: block;
 }
 
